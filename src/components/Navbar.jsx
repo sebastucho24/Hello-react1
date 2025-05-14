@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <aside className="navbar">
-      <h2 className="navbar-title"> <Link to='/'>Home</Link></h2>
+      <h2 className=  "navbar-title"> HOME</h2>
       <nav className="navbar-links">
         <Link className="nav-button" to="/servicios">Servicios</Link>
         <Link className="nav-button" to="/contacto">Contacto</Link>

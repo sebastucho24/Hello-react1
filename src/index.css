@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('/src/assets/fondo.jpg');
+    background: url('/src/assets/fondo.jpg'); 
+    background-repeat: no-repeat;
     background-size: cover; 
   }
   
@@ -11,10 +12,13 @@ body {
   }
   
   .main-content {
-  
+  background-image: url('/src/assets/fondo.jpg');
+    background-size: cover;
+    fill-opacity: calc(0.5);
+    background-repeat: no-repeat;
+    
     flex-grow: 1;
     padding: 2rem;
-    background-color: #868484;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,14 +26,18 @@ body {
   
   .page-title {
     font-size: 2rem;
-    text-align: center;
+    margin-bottom: 1rem;
+     text-align: center;
+    color: #0a0a0a;
+    text-shadow: 2px 2px 0 #ffffff;
+    
   }
   
   .auth-form {
     background: url('/src/assets/fondo.jpg');
     background-size: cover; 
-    max-width: 400px;
-    width: 100%;
+    max-width: 300px;
+    width: 80%;
     padding: 2rem;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 1rem;
@@ -41,6 +49,7 @@ body {
   
   .auth-form h2 {
     margin-bottom: 1rem;
+    color: #ffffff;
   }
   
   .auth-form input {
@@ -70,7 +79,7 @@ body {
   .auth-form a {
     margin-top: 0.5rem;
     font-size: 0.9rem;
-    color: #ffffff;
+    color: #fcfcfc;
     text-decoration: none;
   }
   

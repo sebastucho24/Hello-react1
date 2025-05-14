@@ -1,12 +1,16 @@
 const Home = () => (
     <div>
       <h2 className="page-title">Bienvenido, estudiante</h2>
-      <p><strong>Últimas noticias:</strong> El próximo lunes iniciamos el nuevo ciclo académico. ¡Prepárate!</p>
-      <p><strong>Accesos directo hacia:</strong></p>
-      <ul>
-        <li>📚 <a href="#">Mis clases programadas</a></li>
-        <li>📂 <a href="#">Material de estudio</a></li>
-      </ul>
+      <img 
+        src="/src/assets\IMG_2044.jpg" 
+        alt="Foto del estudiante" 
+        style={{ width: "200px", height: "200px", borderRadius: "15%",
+          alignSelf: "center", marginTop: "20px", borderColor: "white", borderWidth: "2px", borderStyle: "solid"
+         }} 
+      />
+      <h2>JUAN SEBASTIAN CORREA</h2>
+      <h2>Programación para la WEB II</h2>
+      
     </div>
   );
   

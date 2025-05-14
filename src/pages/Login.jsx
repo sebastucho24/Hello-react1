@@ -11,7 +11,7 @@ const Login = () => {
 
   return (
     <form onSubmit={handleLogin} className="auth-form">
-      <h2> </h2>
+      <h2>INICIA SESION</h2>
       <input type="text" placeholder="Usuario" required /><br />
       <input type="password" placeholder="Contraseña" required /><br />
       <button type="submit">Iniciar Sesión</button>
